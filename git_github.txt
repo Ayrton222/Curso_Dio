@@ -1,0 +1,143 @@
+git versionamento de cod distribuido
+
+criado por linus trovalds (criador do linux)
+
+git != github
+
+// comandos
+
+comando para listar
+
+windows
+	-> dir 
+linux
+	-> ls
+
+navegar entre as pastas
+windows
+
+	-> cd / (diretorio c:)
+
+linux
+
+	-> cd / (diretorio c:)
+
+retroceder 1 nivel
+
+cd .. (para voltar uma pasta)
+
+limpar tela
+
+windows
+
+	-> cls
+
+linux
+	-> clear ou ctrl l
+
+tab -> autocomplete
+
+windows -> autocomplete
+
+criar pastar
+
+windows
+	-> mkdir nomedapasta
+
+linux 
+	-> mkdir nomedapasta
+
+
+criar arquivo
+ (>) -> redirecionador de arquivo >
+windows 
+
+	-> echo texto >  hello.txt
+
+linux
+	-> echo texto > helo.txt
+
+deletar arquivo
+
+windows -> del (deleta tudo o que tem dentro da pasta)
+	-> del nomedapasta
+	-> rmdir nome da pasta /s /q (para pagar o repositorio todo)
+
+linux
+	-> rm -rf nomedapasta (pagar todo o arquivo)
+
+//
+
+SHA (tamanho da string) -> secure hash algorithm
+
+openssl shal nomearquivo.txt
+
+//objetos internos do git
+
+-> blobs 
+-> trees
+-> commits
+
+blobs:
+	git hash-object --sdtin (vai dar o sha1 do arquivo)
+	openssl sha1
+
+tree:
+	"monta toda a estrutura da onde esta o arquivo"
+
+
+commit:
+
+	"vai executar tudo"
+
+// chaves ssh e tokens
+
+chave ssh 
+	-> ssh-keygen -t ed25519 -c seuemail
+
+	-> cd /c/users/usuario/.ssh/
+
+	-> ls
+	
+	-> cat id_ed25519.pun
+
+	-> copia o codigo chave
+
+(para carregar a chave)	
+-> eval $(ssh-agent -s)
+-> ls
+-> ssh-add id_ed25519
+
+
+token de acesso
+
+	->
+
+//comandos com git
+
+	-> git init (iniciar)
+	-> git add (mover arquivo)
+	-> git commit
+
+
+//criando
+
+mkdir livro-receitas
+
+git init
+
+ls -a (para ver a pasta .git /oculta)
+
+//configurando
+git config --global user.email "ayrton.cabani67@gmail.com"
+
+git config --global user.name ayrton
+
+//add arquivo
+
+//arquivo markdown (nomearquivo.md) (tipo html)
+
+git add *
+
+git commit -m "texto"
+

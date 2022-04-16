@@ -1,0 +1,49 @@
+tradicional : so permite que o projeto avançe quando uma fase esta inteiramente completa
+
+projeto é controlado por fases e marcos
+
+so ve o software na fase final 
+
+resistente a mudanças
+
+agil : software construido por partes (incremental) e cada parte executa-se em um ciclo 
+
+projeto controlado por funcionalidades entregues
+
+cliente pode ver parte do codigo no inicio do projeto
+
+mudanças constante de acordo com feedbacks
+
+
+scrum : transparencia, adaptação, inspeção
+
+-> conversar mais e escrever menos
+-> demonstrar o software constantemente aos usuarios e obter feedbacks constantes
+-> requisitos mudam ao longo do tempo
+-> aprender progressivamente com o uso do software
+
+
+
+papeis responsaveis: PO -> product owner
+		     SM -> Scrum master
+		     DEV -> time de desenvolvimento
+
+
+PO -> uma pessoa
+ define as funcionalidade do software
+
+SM -> garante o uso correto do scrum
+ nao e gerente 
+ age como facilitador
+ auxilia o PO no planejamento
+ auxilia a equipe a remover impedimento
+ treina o time em autogerenciamento
+
+DEV -> habilidades para desenvolver, testa, criar e desenha, ou seja tudo que for necessario para entregar o software funcionando
+
+//
+
+time box -> tempo maximo para fazer uma cerimonia ou sprint
+
+
+
