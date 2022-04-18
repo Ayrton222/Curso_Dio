@@ -1,0 +1,289 @@
+// modulo 2
+
+redes:
+	backbone (espinha dorsal)
+	provedor de acesso -> empresas telefonicas, pessaram o usuario final
+	provedor de serviço -> dial-up, adsl(banda larga), friba otica, rádio, satelite, movel, p2p (peer to peer)
+
+caminho inverso
+	www
+	dns
+	ip
+	classes de redes
+	127.0.0.1
+
+
+tcp/ip
+
+Protocolos de comunicação entre computadores em rede
+	tcp -> Transmission Control Protocol (Protocoo de Controle de Transimissao)
+	Internet Protocol (Protocolo de internet)
+Modelo de camadas
+
+4 camadas
+	1 -> fisica (ex:placa de red)
+	2 -> red(ex:ip)
+	3 -> transporte (ex:tcp,udp)
+	4 -> aplicação (ex:ftp, smtp, http)
+
+TCP x UDP -> são duas formas de conexao
+
+UDP:
+	-> Rapida
+	-> Não condiavel (coisas podem se perder no caminho)
+	-> "Carro do ovo" ("Todos recebem a informação, não sabem quem ta recebendo, não sabe se todos receberam")
+	-> LiveStream
+
+TCP:
+	-> Voltado a conexão
+	-> handshake ("Se comunicam")
+	-> integridade,ordem dos dados
+	-> Aplicativo de mensagens de texto (tem ordem)
+
+
+//portas
+
+As portinhas por onde dados sairao e chegarão
+	20: ftp 
+	22: ssh -> conexao segura
+	25: smtp -> envio de email
+	53: dns -> ip
+	80: http -> requisição internet
+	443: https -> requisição internet segura
+
+//Roteadores, switches e modems
+
+Modems:
+	Modulator-demolutador (modula e demodula sinais)
+	Hardware que converte dados em formato que possa ser transmitido de um computador para outro e lido por outro
+
+Roteador:
+	Distribui internet para um ou mais dispositivos de uma rede
+	Pode fazer a comunicação entre redes
+	Pode ser "burro" (manda pra todo mundo, mas nao sabe quem pegou)
+
+Switch
+	Distribui internet para um ou mais dispositivos de uma rede
+	Criado para ser "inteligente"
+
+
+//Celular internet e outros dispositivos
+
+//Dados moveis
+
+SMS
+	Quanto custa para uma operadora de telefonia movel, enviar um SMS? -> Nada
+
+O celular troca, naturalmente alguns bits com as torres de comunicação. 
+
+
+MMS
+	Transmissao de mensagens multimidias (audio,video) por meio de uma especie de conexao de dados primitiva
+
+Conexao moveis
+	1g (analógico)
+	2g (digital) (gsm -> Global System for Mobile Communication)
+	gprs (General Packet radio service)
+	edge (Enhanced Data Rates for GSM Evolution)
+	3g (7mbps)
+	4g (22,1mbps)
+	5g (10gbps)
+
+Wi-fi
+	IEE 802.11: 2,4 GHz, 2Mbps
+	IEE 802.11a: 5GHz, 54Mbps
+	IEE 802.11b: 2,4GHz, 11Mbps (diminuição de interferencia)
+	IEE 802.11g: 2,4 GH\, 54Mbps
+	IEE 802.11n: GH\/5Ghz, 150-600Mbps
+
+Segurança:
+	WEP: chaves de 64 bits e de 128 bits
+	WPA: chave trocada periodicamente 
+	WPA2 (AES) (802.11i)
+		+ segurança
+		+ processamento
+Dispositivos na rede
+	Impressora
+	Scanner
+	Chromecast
+
+Bluetooth
+	Conexao ponto-a-ponto
+
+Classe | Potencia Max | Alcance
+
+1	100mW		100m
+2	2,5mW		10m
+3	1mW		1m
+
+Versão | Taxa de transimissão
+
+1.2	1 Mbps
+2.0+edr 3 Mbps
+3.0	24 MBps
+4.0	25 Mbps
+5.0 	50 Mbps
+
+
+//Browser, site, aplicativos e webserver
+
+
+Browser 
+	Programa que interprete as linguagens de programação (LP) e as transforme em algo q
+		LP -> Linguagen de programação
+
+	Sabe indentificar varias LP, lingaugens de marcação e conteudo multimedia
+	hoje, os browsers fazem muito mais que isso, existem plug-ings, ou add-ons, que ajudam na navegação
+	Cache e cookies
+
+Pagina estatica x pagina dinâmica
+
+Pagina estatica -> quase nao tinha interação
+
+Pagina dinâmica -> possui interação
+
+Site
+	Pagina da internet
+	Diversos propositos
+	Podem ser feitas em diversas LP
+	D/XHTML caindo em desuso
+
+Aplicativo
+	Software que é executado no navegador
+	Aplicativo de celular, muitas vezes nada mais pe que uma especie de navegador
+	Hoje em dia, ja quase nao existe diferença entre site e aplicativo, e o primeiro esta em declinio
+	Outra diferença terminologica que esta sumindo é entre programas/softwares e aplicativo
+
+E-commerce
+	"e", significa "electronic"
+	Comercio eletronico
+	Site de compra e venda com sistema de pagamento
+	O sistema de pagamento pode ser exterior ao site
+	Picpay, boleto, pagseguro, paypal, mercado pago
+
+Web-Server
+	Existem 2 tipos: Estatico e dinamico
+	Estatico é um servidor fisico onde são armazenados arquivos, softwares e ou banco de dados
+	Dinamico se refere aos softwares que estao presentes no servidor fisico
+
+Web-server dinâmico
+	Arquivos (file server)
+	Aplicações (aplicattion server)
+	Banco de dados (database)
+	Tudo junto e misturado
+	Um site, ou aplicativo, precisa ser hospedado em um servidor para poder ser acessado
+	Os dados de um site precisam estar em um servidor
+	Os bancos de dados de um site ou aplicativo precisa estar em um servidor
+
+Web-server
+	Interface disponivel para fazer requisições e consultas em banco de dados inacessíveis (correios, governos)
+
+//O que são stacks
+
+Stacks -> o que é
+	Pilhas de tecnologia
+	Conjunto de softwares necessarios e suficientes para executar um aplicativo/programa
+	Linguagens de programação
+	Ambiente e ferramentas de interação com o app/sw
+	Capacidade e limitação de perfomance
+	Pontos fortes e gracos do app/sw
+
+"O ambiente tecnologico"
+
+Importancia
+	Os lideres de projeto precisam das informações das equipes de desenolvimento
+	Os desenvolvedores precisam saber as limitações e capacidades das ferramentas e ambientes que tem disponiveis
+	Sistemas, banco de dados, lingaugens de programação, protocolos de comunicação
+	Estrategia de negocios
+	Maturidade
+	Contratações, planos de mitigações de riscos, aumento da capacidadem uso dos dados
+	
+
+Definição Front-end, Back-end, Fullstack
+
+Front-end
+	"Parte da frente"
+	Site,software, aplicativo, web service
+	Interface, UI, UX
+	Logica de programação, html, css
+	Jquery/JS/AJAX, PHP, Bootstrap, outros frameworks
+
+Back-end
+	"Parte de tras"
+	Servidores, banco de dados
+	"Meio-de-campo" entre interface e banco de dados, regras de negocios, validações
+	MySQL, Oracle, protocolos de comunicação, PHP, Java, node.js
+
+FullStack
+	Profissional que sabe trabalhar em todas as camadas das tecnologias de desenvolvimento/execução de um app/sw
+
+
+//LPs e termos
+
+Pricnipais lingaugens
+
+	HTML -> "marcação"
+	CSS -> "Stylesheet"
+	Javacript(jQuery,AJAX,diversas libs)
+	PHP
+	.NET
+	ASP
+	Java
+	Ruby (on Rails)
+	Python
+	Perl
+	C/C++/C#
+
+
+Termos Comuns
+	404 -> erro pagina nao existe
+	algoritmo -> sequencia de passos
+	alt -> texto alternativo
+	api -> funcionalidade a mais para executar outras funções
+	aplicação -> programa/software
+	back-end
+	biblioteca/dll -> conjunto de ferramenta que nos permite fazer coisas a mais
+	bootstrap -> framework
+	Breakpoint -> pontos chaves / pontos de parada (para ver algo)
+	Browser/navegador ->
+	Bug ->
+	Cache ->
+	Código -> instruçao feita pela linguagem (para ser compilada, executada etc)
+	Controle de versão -> sw para controla versão
+	Cookies ->	
+	Debug -> tentar descobrir o erro
+	Deploy -> "´pacote" q mandamos paras ser publicado
+	Desing adaptativo/responsivo -> se adequa a qualquer tipo de tela
+	DNS -> site p ip
+	Documentação -> Interna ou externa (Quem crio, etc..)
+	Dominio -> www.nonemsite.com
+	DPI -> proporção de ponto na tela
+	Editor de texto -> IDE
+	Estrutura de dados -> (array, char etc)
+	Favicon -> figura do site
+	Fontes -> tipo de letras
+	Framework -> "caixa de ferramenta"
+	Front-end
+	FTP -> comunicação para troca de arquivo
+	Full-Stack ->
+	Githbu/SVN/CV -> controladores de versão
+	HTTP(S) ->
+	IP -> numero d cada dispositivo na red
+	Linguagem -> LP ou marcação
+	Meta tags -> algumas tags com funçoes
+	Metodo agil -> scrum etc..
+	Mobile -> dispotivo movel
+	MVC -> model view controler
+	MVP -> Minimom view product (minimo produto viavel)
+	Mysql -> Lingaugem d banco de dados
+	Pixel -> 
+	Resolução -> quantidade de pixel q a tela tem
+	Servidor -> 
+	Sistema operacional/SO -> windows etc
+	Solução -> 
+	SSL -> Camada de segurança
+	UI ->
+	UX ->
+	Versão -> "Versões criadas"
+	WYSIWYG -> "Watch you see / watch you get " ( O que você ve / o que você pega/recebe)
+	
