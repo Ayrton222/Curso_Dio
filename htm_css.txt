@@ -1,0 +1,16 @@
+targe="_blank" -> para abrir link em outra pag
+mailto: -> para ir para o email
+
+//tinypng -> para "otimizar" a img (deletar dados desnecessariso)
+
+ul -> lista
+
+ol -> lista ordenada
+
+margin -> espaçamento entre elementos
+
+
+text-trasnformation: capitalize -> primeira letra em maiuscula
+
+list-style-type -> mudar listas
+
